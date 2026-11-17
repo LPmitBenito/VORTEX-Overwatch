@@ -1,0 +1,21 @@
+modLoader="javafml"
+loaderVersion="[1,)"
+license="MIT"
+[[mods]]
+modId="streetresmon"
+version="1.4.0"
+displayName="StreetResmon"
+authors="StreetResmon"
+description='''FiveM-inspired diagnostics for Minecraft: F8 console, F5 resource monitor with sampled per-mod CPU, profiler, memory and crash tools.'''
+[[dependencies.streetresmon]]
+modId="neoforge"
+type="required"
+versionRange="[26.3.0.101,26.4)"
+ordering="NONE"
+side="BOTH"
+[[dependencies.streetresmon]]
+modId="minecraft"
+type="required"
+versionRange="[26.3]"
+ordering="NONE"
+side="BOTH"
